@@ -1,0 +1,231 @@
+body
+{
+    background-color: #f7f1e3;
+    color: darkolivegreen;
+    font-family: Merriweather;
+}
+.header
+{
+    display: flex;
+    justify-content: space-between; 
+    height: 100px;
+}
+.headera
+{
+    display: flex;
+    align-items: center;
+}
+.link
+{
+    padding: 20px;
+}
+.titulo
+{
+    margin: 50px;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 10px;
+    text-align: center;
+}
+.cedula
+{
+    margin: 10px 380px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cedula button
+{
+    background-color: transparent;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+}
+.cedula input
+{
+    background-color: transparent;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+.cedula1
+{
+    padding: 10px 50px;
+}
+.soluciones0
+{
+    margin: 50px 100px 10px 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    align-items: center;
+    text-align: center;
+}
+.solutions
+{
+    display: flex;
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+.soluciones1
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 420px;
+}
+.soluciones2
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 420px;
+}
+.soluciones3
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 420px;
+}
+.soluciones4
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 420px;
+}
+.trayectoria0
+{
+    margin: 10px 100px 10px 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    align-items: center;
+    text-align: center;
+}
+.trayect
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+.trayectoria1
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 500px;
+}
+.trayectoria2
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 500px;
+}
+.blog0
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 150px;
+}
+.blog1
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 440px;
+}
+.blog2
+{
+    margin: 10PX 50px;
+    border-radius: 10px;
+    border: 1px solid gray; 
+    text-align: center;
+    width: 380px;
+    height: 440px;
+}
+.parrafos
+{
+    margin: 5px 30px;
+}
+.contactanos0
+{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    margin: 10px 270px;
+}
+.contactanos0 button
+{
+    background-color: transparent;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 3px;
+    margin: 10px;
+}
+.contactanos0 input
+{
+    background-color: transparent;
+    border-color: gray;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 3px;
+}
+.instagram
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(https://res.cloudinary.com/hollmanandresf/image/upload/v1596932019/ig-logo-email_is9gdg.png);
+    background-size: 35px 35px;
+    margin: 0px 10px;
+}
+.twitter
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(https://res.cloudinary.com/hollmanandresf/image/upload/v1596932018/Twitter-Logo_matt6k.png);
+    background-size: 35px 35px;
+    margin: 0px 10px;
+}
+.facebook
+{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background-image: url(https://res.cloudinary.com/hollmanandresf/image/upload/v1596932018/f_logo_RGB-Hex-Blue_512_dzj7nb.png);
+    background-size: 35px 35px;
+    margin: 0px 10px;
+}
+.Subtitulos-footer
+{
+    text-align: center;
+    margin: 10px 400px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 10px;
+}
