@@ -9,11 +9,16 @@ body
     display: flex;
     justify-content: space-between; 
     height: 100px;
+    flex-wrap: wrap;
 }
 .headera
 {
     display: flex;
     align-items: center;
+    max-width: 1024px;
+    flex: 1;
+    flex-wrap: wrap;
+    list-style: none;
 }
 .link
 {
@@ -27,13 +32,15 @@ body
     border: 1px solid gray;
     border-radius: 10px;
     text-align: center;
+    flex-wrap: wrap;
 }
 .cedula
 {
-    margin: 10px 380px 10px;
+    margin: auto;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .cedula button
 {
@@ -43,6 +50,7 @@ body
     border-radius: 10px;
     padding: 3px;
     margin: 10px;
+    flex-wrap: wrap;
 }
 .cedula input
 {
@@ -51,6 +59,7 @@ body
     border-style: solid;
     border-radius: 10px;
     padding: 3px;
+    flex-wrap: wrap;
 }
 .cedula1
 {
@@ -63,11 +72,11 @@ body
     border: 1px solid gray; 
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .solutions
 {
     display: flex;
-    /*flex-direction: row;*/
     flex-wrap: wrap;
     justify-content: space-between;
     margin: 10px 150px;
@@ -78,8 +87,9 @@ body
     border-radius: 10px;
     border: 1px solid gray; 
     text-align: center;
-    width: 380px;
+    max-width: 380px;
     height: 420px;
+    flex-wrap: wrap;
 }
 .soluciones2
 {
@@ -87,8 +97,9 @@ body
     border-radius: 10px;
     border: 1px solid gray; 
     text-align: center;
-    width: 380px;
+    max-width: 380px;
     height: 420px;
+    flex-wrap: wrap;
 }
 .soluciones3
 {
@@ -98,6 +109,7 @@ body
     text-align: center;
     width: 380px;
     height: 420px;
+    flex-wrap: wrap;
 }
 .soluciones4
 {
@@ -107,6 +119,7 @@ body
     text-align: center;
     width: 380px;
     height: 420px;
+    flex-wrap: wrap;
 }
 .trayectoria0
 {
@@ -115,6 +128,7 @@ body
     border: 1px solid gray; 
     align-items: center;
     text-align: center;
+    flex-wrap: wrap;
 }
 .trayect
 {
@@ -131,6 +145,7 @@ body
     text-align: center;
     width: 380px;
     height: 500px;
+    flex-wrap: wrap;
 }
 .trayectoria2
 {
@@ -140,6 +155,7 @@ body
     text-align: center;
     width: 380px;
     height: 500px;
+    flex-wrap: wrap;
 }
 .blog0
 {
@@ -156,6 +172,7 @@ body
     text-align: center;
     width: 380px;
     height: 440px;
+    flex-wrap: wrap;
 }
 .blog2
 {
@@ -165,6 +182,7 @@ body
     text-align: center;
     width: 380px;
     height: 440px;
+    flex-wrap: wrap;
 }
 .parrafos
 {
@@ -176,6 +194,7 @@ body
     align-items: center;
     justify-content:space-evenly;
     margin: 10px 270px;
+    flex-wrap: wrap;
 }
 .contactanos0 button
 {
@@ -185,6 +204,7 @@ body
     border-radius: 10px;
     padding: 3px;
     margin: 10px;
+    flex-wrap: wrap;
 }
 .contactanos0 input
 {
@@ -193,6 +213,7 @@ body
     border-style: solid;
     border-radius: 10px;
     padding: 3px;
+    flex-wrap: wrap;
 }
 .instagram
 {
@@ -229,3 +250,39 @@ body
     border-radius: 20px;
     padding: 10px;
 }
+@media screen and (max-width:1024px)
+{
+    body
+    {
+        ;
+    }
+}
+@media screen and (max-width:767px)
+{
+    .headera
+            {
+                display: block;
+                height: auto;
+            }
+    .headera ol
+            {
+             display: flex;
+             list-style: none;
+            }
+    .headera ol li
+            {
+             height: 30px;
+             padding: 10px;
+             justify-content: center;
+            }
+    .headera a
+            {
+             justify-content: center;
+            }
+    .headerlogo
+            {
+            text-align: center;
+            }
+}
+@media screen and (max-width:480px)
+@media screen and (max-width:320px)
