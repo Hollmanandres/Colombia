@@ -15,48 +15,51 @@
     </head>
 
         <body>
-            <header>
-                <section>
-                    <figure class="headerlogo"><img src="./imagenes/logoheader.png" width="300px"></figure>
+            <header class="header1">
+                <section class="header-section">
+                    <figure class="headerlogo"><img src="./imagenes/logoheader.png" width="350px"></figure>
                 </section>
-                <section class="headera">
+                <section class="header-link">
                     <nav>
                         <ol>
-                            <li><a class="link" href="#Inicio">Inicio  </a></li>
-                            <li><a class="link" href="#Soluciones">Soluciones  </a></li>
-                            <li><a class="link" href="#Trayectoria">Trayectoria  </a></li>
-                            <li><a class="link" href="#Blog">Blog  </a></li>
-                            <li><a class="link" href="#contáctanos">Contáctanos  </a></li>
-                            <li><a class="link" href="#pagos"> <button>Realice sus pagos</button></a></li>
+                            <li class="header-link__itembar"><a href="#Inicio">  Inicio  </a></li>
+                            <li class="header-link__itembar"><a href="#Soluciones">  Soluciones  </a></li>
+                            <li class="header-link__itembar"><a href="#Trayectoria">  Trayectoria  </a></li>
+                            <li class="header-link__itembar"><a href="#Blog">  Blog  </a></li>
+                            <li class="header-link__itembar"><a href="#contáctanos">  Contáctanos  </a></li>
+                            <li class="header-link__itembar"><a href="#pagos"> <button>  Realice sus pagos  </button>  </a></li>
                         </ol>
                     </nav>
                 </section>
             </header>
-        
+
         <main>
             <section class="titulo">
                     <h1>
                         <b>Bienvenido a Colombia Compra Póliza</b>
                     </h1>
                     <h3>
-                        La plataforma donde emites 100% digital tu póliza de cumplimiento para prestación de servicios como persona natural.
+                    </br>La plataforma donde obtienes tu póliza de cumplimiento facil y rapido de manera digital, para la prestación de servicios como persona natural.
                     </h3>
             </section>
 
             <section>
                     <h4 class="cedula">
-                        <form class="cedula1" action="Buscar">
-                            <label for="cedul">
+                        <form action="Buscar">
+                            <label for="cédula">
                                 <span>Ingresa tu número de cédula:</span>
-                                <input type="number" id="Cédula" placeholder="Número de cédula" required>
-                                <!-- <button>Buscar</button> -->
+                                </br></br>
+                                <input class="cedula-fill" type="number" id="cédula" placeholder="Número de cédula" required>
+                                <input class="cedula-stylebuttom" type="submit" value="Buscar">
+                                <datalist id="cédula">
+                                </datalist>
                             </label>
                         </form>
                     </h4>
             </section>
 
-            <section id="Soluciones" class="soluciones0">
-                <h2>
+            <section id="Soluciones">
+                <h2 class="title2">
                     Soluciones y servicios adicionales
                 </h2>
             </section>
@@ -171,36 +174,37 @@
                 </article>
             </section>
 
-            <section id="contáctanos" class="contactanos0">
+            <section id="contáctanos" class="contactanos1">
                 <div>
                     <h3>
-                        Déjanos tu Email
+                        <form action="/suscripcion/">
+                            <label for="email">
+                                <span>Déjanos tu email</span></br></br>
+                                <input class="contactanos2" type="email" name="email" placeholder="Email del usuario" required>
+                                <input class="contactanos3" type="submit">
+                                <!-- Si buscamos una mejor experiencia, podemos usar la etiqueta <input type="email" autocomplete="email"> -->
+                            </label>
+                        </form>
                     </h3>
                 </div>
-                <div>
-                    <form action="/suscripcion/">
-                    <input type="email" name="email" placeholder="Email del usuario" required>
-                    <button>Enviar</button>
-                    </form>
-                </div>
-                <div>
+                <div class="social">
                     <h3>
                         o siguenos en
                     </h3>
                 </div>
                 <div class="social">
-                    <a href="https://www.instagram.com/" class="instagram"></a>
-                    <a href="https://www.twitter.com/" class="twitter"></a>
-                    <a href="https://www.facebook.com/" class="facebook"></a>
+                    <a href="https://www.instagram.com/" class="instagram"><img src="./imagenes/instagramlogo.png" width="30px"></a>
+                    <a href="https://www.twitter.com/" class="twitter"><img src="./imagenes/TwitterLogo.png" width="30px"></a>
+                    <a href="https://www.facebook.com/" class="facebook"><img src="./imagenes/facebooklogo.png" width="30px"></a>
                 </div>
             </section>
         </main>
 
-        <footer class="Subtitulos-footer">
+        <footer class="subtitles-footer">
             <a href="https://www.colombiacompra.gov.co/" target="_blanc">Colombia Compra Eficiente</a>
-            <section>
-                <video controls preload="auto">
-                    <source  src= "./imagenes/videoplay.mp4#t=0,59" />
+        <section class="subtitles-footer1">
+                <video controls preload="auto" width="320px">
+                    <source  src= "./imagenes/videoplay.mp4#t=0,59"/>
                 </video>
             </section>
         </footer>
